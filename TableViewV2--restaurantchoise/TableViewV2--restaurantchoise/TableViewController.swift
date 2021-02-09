@@ -44,8 +44,19 @@ class TableViewController: UITableViewController {
         
         cell.imageView?.image = UIImage(named: restaurantNames[indexPath.row])
         
+        // round corners vor image
+        // cell.imageView?.layer.cornerRadius = 85 / 2
+        cell.imageView?.layer.cornerRadius = cell.frame.size.height / 2
+        cell.imageView?.clipsToBounds = true
+        
 
         return cell
+    }
+    
+    // MARK: - Table view delegate - (heightForRowAt) - Height of cell
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 85
     }
     
 
