@@ -46,7 +46,7 @@ class TableViewController: UITableViewController {
         
         // round corners vor image
         // cell.imageView?.layer.cornerRadius = 85 / 2
-        cell.imageView?.layer.cornerRadius = cell.frame.size.height / 2
+        cell.imageView?.layer.cornerRadius = cell.frame.size.height 
         cell.imageView?.clipsToBounds = true
         
 
