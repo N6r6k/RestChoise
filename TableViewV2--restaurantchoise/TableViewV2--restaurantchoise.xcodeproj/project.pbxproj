@@ -14,6 +14,7 @@
 		522AC4AD25C60C0100AD07C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522AC4AC25C60C0100AD07C1 /* Assets.xcassets */; };
 		522AC4B025C60C0100AD07C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522AC4AE25C60C0100AD07C1 /* LaunchScreen.storyboard */; };
 		52F6452C25C95E1000C3ABBC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6452B25C95E1000C3ABBC /* TableViewController.swift */; };
+		52F6452F25D260C600C3ABBC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6452E25D260C600C3ABBC /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		522AC4AF25C60C0100AD07C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522AC4B125C60C0100AD07C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52F6452B25C95E1000C3ABBC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		52F6452E25D260C600C3ABBC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				522AC4A225C60BFF00AD07C1 /* SceneDelegate.swift */,
 				522AC4A625C60BFF00AD07C1 /* Main.storyboard */,
 				52F6452B25C95E1000C3ABBC /* TableViewController.swift */,
+				52F6452E25D260C600C3ABBC /* CustomTableViewCell.swift */,
 				522AC4AC25C60C0100AD07C1 /* Assets.xcassets */,
 				522AC4AE25C60C0100AD07C1 /* LaunchScreen.storyboard */,
 				522AC4B125C60C0100AD07C1 /* Info.plist */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				522AC4A125C60BFF00AD07C1 /* AppDelegate.swift in Sources */,
+				52F6452F25D260C600C3ABBC /* CustomTableViewCell.swift in Sources */,
 				522AC4A325C60BFF00AD07C1 /* SceneDelegate.swift in Sources */,
 				522AC4AB25C60BFF00AD07C1 /* TableViewV2__restaurantchoise.xcdatamodeld in Sources */,
 				52F6452C25C95E1000C3ABBC /* TableViewController.swift in Sources */,
